@@ -18,8 +18,5 @@ public class CalculoMap {
         return mapa;
     }
 
-    public void adicionarAoMapa(String chave, Calculo calculo) {
-        mapa.put(chave, calculo);
-    }
 }
 

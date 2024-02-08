@@ -33,11 +33,11 @@ Ex:
 {Abha=-21.6/18.4/58.4, Abidjan=-14.6/23.9/62.4, Abéché=-4.1/30.8/65.7,........, Zürich=-26.0/10.8/47.6, Ürümqi=-26.9/11.05/49.0, İzmir=-17.9/18.4/54.7}
 
 ### Como executar:
-- Colocar o arquivo measurements.txt dentro da pasta main/resources
 
- (arquivo disponível em: https://drive.google.com/file/d/1PULRG4r-9ZFMIa9eb1KhPBpKK2Bb00HO/view?usp=sharing )
-
- - Executar o comando:
+ - Executar os comandos:
+ ```bash
+mvn clean Install
+```
 ```bash
 mvn clean spring-boot:run
 ```
