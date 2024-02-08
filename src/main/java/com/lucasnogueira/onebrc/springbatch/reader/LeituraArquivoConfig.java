@@ -1,6 +1,6 @@
-package com.mentoria.desafiofinal.reader;
+package com.lucasnogueira.onebrc.springbatch.reader;
 
-import com.mentoria.desafiofinal.impl.ConteudoLinha;
+import com.lucasnogueira.onebrc.springbatch.impl.ConteudoLinha;
 import org.springframework.batch.core.configuration.annotation.StepScope;
 import org.springframework.batch.item.file.FlatFileItemReader;
 import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 
 @Configuration
-public class LeituraArquivoTxtConfig {
+public class LeituraArquivoConfig {
     @StepScope
     @Bean
     public FlatFileItemReader<ConteudoLinha> leituraArquivoTxt() {

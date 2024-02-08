@@ -1,15 +1,18 @@
-package com.mentoria.desafiofinal.impl;
+package com.lucasnogueira.onebrc.springbatch.impl;
 
+import lombok.Data;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+@Data
 @Component
 public class CalculoMap {
 
-    private final Map<String, Calculo> mapa = new HashMap<>();
+    private final Map<String, Calculo> mapa = new TreeMap<>();
+
+
 
     public Map<String, Calculo> getMapa() {
         return mapa;

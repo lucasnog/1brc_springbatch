@@ -1,4 +1,4 @@
-package com.mentoria.desafiofinal;
+package com.lucasnogueira.onebrc.springbatch;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
