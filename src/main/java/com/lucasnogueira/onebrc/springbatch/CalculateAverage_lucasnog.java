@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class CalculateAverage_lucasnog {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CalculateAverage_lucasnog.class, args);
+		SpringApplication.exit(SpringApplication.run(CalculateAverage_lucasnog.class, args));
 	}
 
 }
